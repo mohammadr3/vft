@@ -1,0 +1,182 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0px;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+/*my css code*/
+
+header{
+    margin: 0px;
+    background-color: rgb(29, 19, 29);
+    height: 80px;
+
+    
+}
+
+body{
+
+    background-color: lawngreen;
+
+}
+
+#down{
+
+    width: 100%;
+    background-color: maroon;
+
+}
+
+.down_call{
+
+    height: 300px;
+    width: 30%;
+    margin-left: 2% ;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-width: 5px;
+    border-style:groove;
+    border-color: rgba(3, 3, 3, 0.425);
+    display: inline-block;
+    text-align: center;
+}
+
+/* #go_top{
+
+    float: left;
+    margin-bottom: 300px;
+
+} */
+
+footer{
+    background-color: lightcoral;
+}
+#outer_div{
+
+    background-color: darkmagenta;
+
+}
+
+div.top{
+    line-height: 1.8em ;
+    color: brown;
+    background-color: #ad2687 ;
+    width: 12.68%;
+    height: 30px;
+    display: inline-block;
+    /* margin-bottom: 10px; */
+    
+}
+
+header.div.right{
+
+    float: right;
+    margin-right: 5px;
+    
+}
+
+.left{
+
+    float: left;
+    /* margin-right: 5px; */
+    
+} 
+
+#home {
+    /* line-height: 2.5em ; */
+    color: cyan;
+    background-color: rgb(53, 15, 88) ;
+    width: 22%;
+    height: 200px;
+    display: inline-block;
+    height: 30px;
+    /* border: (30px , 100px , 0px , 0px); */
+    /* margin-bottom: 0px; */
+    border-radius: 15px;
+    text-align:center;
+    
+}
+
+
+#home:hover{
+    /* line-height: 3em ; */
+    /* color: rgb(1, 5, 5); */
+    background-color: rgb(4, 2, 82) ;
+    float: left;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    width: 300px;
+    height: 80px;
+    text-align:center;
+    /* margin-left: 50px; */
+    
+
+}
+
+a{ 
+    padding:2px ;
+    
+}
+
+.down {
+
+    display: inline-block;
+}
+
+/* video{
+    width: 100%;
+} */
+
+#ico{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: darkblue;
+}
+
